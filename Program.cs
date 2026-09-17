@@ -31,3 +31,9 @@ programmering.RollCall();
 
 Console.WriteLine("\nHamzehs kurser:");
 hamzeh.Schedule();
+
+adam.Leave(programmering);
+
+matematik.Enroll(yasmin);
+Console.WriteLine("\nYasmins kurser:");
+yasmin.Schedule();
